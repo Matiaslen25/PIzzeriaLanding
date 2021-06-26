@@ -1,0 +1,241 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    /*margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; */
+}
+
+body{
+    background-color: #F3F3F3;
+    width: 100vw;
+}
+
+a{
+    text-decoration: none;
+    color: #F3F3F3;
+}
+
+ul{
+    display: flex;
+}
+
+/*--inicio header--*/
+header{
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 100px;
+    left: 0px;
+    top: 0px;
+
+    background: #222222;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+header nav{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;    
+    width: 284px;
+    height: 19px;
+    margin: 30px;
+}
+
+.isologotipo{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 234px;
+    margin: 30px;
+}
+
+.logo{
+    position: relative;
+    width: 92px;
+    height: 80px;
+    margin-right:5px;
+}
+
+.fuente-logo{
+    position: relative;
+    width: 132px;
+    height: 28px;
+    margin-left: 5px;
+    color: #FC200C;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.fuente-logo-verde{
+    color: #39B24A;    
+}
+
+.fuente-logo-blanco{
+    color: #F3F3F3;    
+}
+
+.nav-header a{
+    color: #F3F3F3;
+}
+
+.nav-header ul{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 284px;
+    height: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-header li{
+    position: relative;
+}
+
+/*--fin header--*/
+
+/*--inicio main--*/
+
+main{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+}
+
+main section{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1848.75px;
+    left: 19px;
+    top: 135px;
+}
+
+main div{
+    display: flex;
+    position: relative;
+    width: 918.75px;
+    height: 620px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.delivery{
+    background-image: url(/img/moto.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.delivery h2{
+    position: relative;
+    width: 657.45px;
+    height: 52.5px;
+    left: 56.25px;
+
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 52.5px;
+
+    color: #FC200C;
+}
+
+.delivery span{
+    color: #F3F3F3;
+}
+
+.podio{
+    flex-direction: column;
+}
+
+.podio h2{
+    position: absolute;
+    width: 320.625px;
+    height: 52.5px;
+    top: 37.5px;
+    z-index: 1;
+    align-self: center;
+
+    font-size: 45px;
+    line-height: 52.5px;
+
+    color: #FC200C;
+}
+
+.podio h3{
+    position: absolute;
+    z-index: 1;
+    width: 207.075px;
+    height: 43.125px;
+    left: 112.5px;
+    top: 168.75px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight:bolder;
+    font-size: 37.5px;
+    line-height: 43.125px;
+
+    color: #222222;
+}
+
+.podio li {
+    position: relative;
+    z-index: 1;
+    width: 324.475px;
+    height: 35.625px;
+    left: 16.875px;
+    top: 243.75px;
+    margin: 18.75px;
+
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 35.625px;
+
+    color: #222222;
+}
+
+.arbolito{
+    position: absolute;
+    width: 172.5px;
+    height: 241.875px;
+    left: 562.5px;
+    top: 262.5px;
+}
+
+
+/*--fin main--*/
+
+/*--inicio footer--*/
+
+footer{
+    position: absolute;
+    display: flex;
+    width: 100vw;
+    height: 150px;
+    left: 0px;
+    top: 798px;
+    background-color: #222222;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: column;
+}
+
+footer li{
+    margin: 6px;
+    margin-left: 0px;
+}

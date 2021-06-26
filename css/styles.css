@@ -129,7 +129,7 @@ main div{
 }
 
 .delivery{
-    background-image: url(img/moto.png);
+    background-image: url(../img/moto.png);
     background-repeat: no-repeat;
     background-size: cover;
 }
